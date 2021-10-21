@@ -1,6 +1,6 @@
 {
     "name": "witcier/laravel-response",
-    "description": "laravel-response",
+    "description": "laravel api response format",
     "type": "library",
     "license": "MIT",
     "authors": [
