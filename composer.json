@@ -9,7 +9,7 @@
             "email": "770201276@qq.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {},
     "autoload": {
         "psr-4": {
@@ -25,5 +25,6 @@
                 "Response": "Witcier\\LaravelResponse\\Support\\Facades\\Response"
             }
         }
-    }
+    },
+    "prefer-stable": true
 }
