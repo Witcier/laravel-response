@@ -9,7 +9,6 @@
             "email": "770201276@qq.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {},
     "autoload": {
         "psr-4": {
@@ -26,5 +25,6 @@
             }
         }
     },
-    "prefer-stable": true
+    "minimum-stability": "dev",
+    "prefer-stable" : true
 }
