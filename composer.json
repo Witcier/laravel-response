@@ -1,0 +1,29 @@
+{
+    "name": "witcier/laravel-response",
+    "description": "laravel-response",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Witcier",
+            "email": "770201276@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Witcier\\LaravelResponse\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Witcier\\LaravelResponse\\Providers\\LaravelResponseServiceProvider"
+            ],
+            "aliases": {
+                "Response": "Witcier\\LaravelResponse\\Support\\Facades\\Response"
+            }
+        }
+    }
+}
